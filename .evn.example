@@ -1,0 +1,16 @@
+# Put real values on Render or in a private .env locally
+API_FOOTBALL_KEY=your_api_key_here
+TELEGRAM_BOT_TOKEN=123456:ABC-xyz
+TELEGRAM_CHAT_ID=123456789
+
+# Bot behavior
+RUN_EVERY_MINUTES=60
+MIN_HOME_ODDS=2.0
+MAX_GA_PER_MATCH=1.0
+MIN_WINS_LAST5=3
+MIDTABLE_MIN=5
+MIDTABLE_MAX=12
+H2H_SAMPLE=6
+H2H_HOME_WIN_PCT=0.5
+# Leave COUNTRIES_EXCLUDE blank if you prefer; default excludes Africa & South America in code.
+COUNTRIES_EXCLUDE=
